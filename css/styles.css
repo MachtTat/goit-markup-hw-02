@@ -1,32 +1,37 @@
 /*---- BODY---*/
 body {
     font-family: Roboto, sans-serif;
-    color: var(--text-color);
+    color: #434455;
     background: #FFF;
     font-style: normal;}
     
     /* Headers text color */
 :root {
 --text-color: --navyblue, #2E2F42;
+--logo-color: --iris, #4D5AE5; 
+--span-color: --navyblue, #2E2F42; 
       }
 
 /* Rule for links */
 .link {text-decoration: none;}
 
 /* Rule for lists */
-.ul {list-style-type: none;}
-
+.list {list-style-type: none;}
+.ul {
+    list-style-type: none;
+}
 /* LOGO */
 
-.span {color: var(--text-color);}
+.span {color: var(--span-color);}
 .accent {color: #4D5AE5;}
-.logo {font-family: raleway, sans-serif;
+.logo {
+font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 800;
 line-height: 1.17;
 letter-spacing: 0.03;
 text-transform: uppercase;
-color: var(--text-color);
+color: var(--logo-color);
 }
 .nav {color: var(--text-color);
     font-size: 16px;
@@ -43,27 +48,19 @@ color: var(--text-color);
 }
 /* HERO section */
 .hero {background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
-    }
+       }
 
 h1 {
     color: #FFF;
-    text-align: center;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.1;
     letter-spacing: 0.02;
 }
-.button {display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
+.button {
   background: color: #4D5AE5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);}
+ }
 
   .hero .button:hover, 
   .hero .button:focus {
@@ -76,7 +73,7 @@ font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.1;
-     letter-spacing: 0.02;
+    letter-spacing: 0.02;
     text-transform: capitalize;}
 
   h3 {color: var(--navyblue);
