@@ -1,9 +1,14 @@
 /*---- BODY---*/
 body {
     font-family: Roboto, sans-serif;
-    color: #F4F4FD
-    background: #FFF;}
-
+    color: var(--text-color);
+    background: #FFF;
+    font-style: normal;}
+    
+    /* Headers text color */
+:root {
+--text-color: --navyblue, #2E2F42;
+      }
 
 /* Rule for links */
 .link {text-decoration: none;}
@@ -12,6 +17,78 @@ body {
 .ul {list-style-type: none;}
 
 /* LOGO */
-.logo {font-family: raleway, sans-serif;
-font-size: 18px}
+
+.span {color: var(--text-color);}
 .accent {color: #4D5AE5;}
+.logo {font-family: raleway, sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.03;
+text-transform: uppercase;
+color: var(--text-color);
+}
+.nav {color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02;}
+
+.address { color:#434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+   
+}
+/* HERO section */
+.hero {background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    }
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02;
+}
+.button {display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+  background: color: #4D5AE5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);}
+
+  .hero .button:hover, 
+  .hero .button:focus {
+        color: #4D5AE5;
+    }
+  /* Section 1 */
+
+  h2 {color: var(--navyblue);
+font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1;
+     letter-spacing: 0.02;
+    text-transform: capitalize;}
+
+  h3 {color: var(--navyblue);
+font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02;
+}
+p {color: #434455;
+font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02;}
