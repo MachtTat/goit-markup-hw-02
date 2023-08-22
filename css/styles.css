@@ -16,7 +16,12 @@ body {
 .link {text-decoration: none;}
 
 /* Rule for lists */
-.list {list-style-type: none;}
+.list {list-style-type: none;
+color: var(--text-color);
+}
+.list:hover,
+.list:focus {color: #404bbf;}
+
 .ul {
     list-style-type: none;
 }
@@ -29,7 +34,7 @@ font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 800;
 line-height: 1.17;
-letter-spacing: 0.03;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--logo-color);
 }
@@ -38,15 +43,15 @@ color: var(--logo-color);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02;}
+    letter-spacing: 0.02em;}
 
 .address { color:#434455;
+    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.02;
-   
-}
+    letter-spacing: 0.02em;
+  }
 /* HERO section */
 .hero {background-color: #2E2F42;
        }
@@ -57,25 +62,42 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: 1.1;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
+
 .button {
   background-color: #4D5AE5;
   color: #FFF;
+  font-family: Roboto, sans-serif;
+    font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
  }
-
-  .hero .button:hover, 
-  .hero .button:focus {
-        color: #4D5AE5;
+ .hero-button {background-color: #4D5AE5;
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;}
+  .hero-button:hover, 
+  .hero-button:focus {
+        color: #404BBF);
+        cursor: pointer
     }
   /* Section 1 */
 
+ 
+
   h2 {color: var(--navyblue);
-font-size: 36px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.1;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: capitalize;}
 
   h3 {color: var(--navyblue);
@@ -83,22 +105,27 @@ font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
-p {color: #434455;
+.p {color: #434455;
 font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.02;}
+    letter-spacing: 0.02em;}
+
+        
 
     /* Portfolio */
 .list-button
- {background-color: #F4F4FD;
-color: #4D5AE5;
-font-family: Roboto;
+ {  background-color: #F4F4FD;
+    color: var(--navyblue);
+    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-     letter-spacing: 0.04;}
+    letter-spacing: 0.04em;}
+
+    .list-button:hover,
+    .list-button:focus {color: #404BBF;}
