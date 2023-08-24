@@ -11,6 +11,8 @@ body {
 --logo-color:#4D5AE5; 
 --span-color:#2E2F42; 
     }
+:root {
+  --link-color:#2e2f42;}
 
 /* Rule for links */
 .link {text-decoration: none;}
@@ -19,7 +21,7 @@ body {
 .list {list-style-type: none;
 color: var(--text-color);
 }
-.nav-link {color: var(--text-color);}
+.nav-link: {color: var(--link-color);}
 .nav-link:hover,
 .nav-link:focus {color: #404BBF;}
 
